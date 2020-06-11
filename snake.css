@@ -1,0 +1,96 @@
+body {
+    background: lightblue;
+    font-family: Verdana, arial, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+canvas {
+    border: 1px solid white;
+    background: grey;
+}
+
+.wrapper {
+    margin: 30px auto 0 auto;
+    width: 620px;
+    overflow: auto;
+    position: relative;
+}
+
+#stats {
+    width: 590px;
+    background: grey;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orangered;
+    margin-bottom: 5px;
+    overflow: auto;
+}
+
+#score, #high_score {
+    width: 25%;
+    height: 50px;
+    padding-top: 20px;
+    float: left;
+    margin-right: 5px;
+    overflow: auto;
+    background: lightblue;
+    text-align: center;
+}
+
+#final {
+    width: 175px;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 5px;
+    float: left;
+    overflow: auto;
+    text-align: center;
+    color: red;
+    
+}
+
+#reset {
+    padding: 10px;
+    margin-top: 10px;
+    float: right;
+    border-radius: 5%;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+#reset:hover {
+    background-color: brown;
+}
+
+#overlay {
+    color: yellow;
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    top: 170px;
+    left: 180px;
+    display: none;
+}
+
+#overlay a {
+    display: block;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: aquamarine;
+    width: 140px;
+    height: 50px;
+}
+
+#overlay a:hover {
+    background-color: beige;
+}
+
+
